@@ -155,7 +155,7 @@ const Hero: React.FC = () => {
             <span className="gold-text italic font-normal block pl-4 md:pl-20">Integrity.</span>
           </h1>
           <p className="text-xl text-[#5D5956] max-w-xl leading-relaxed font-light mx-auto lg:mx-0">
-            Celebrating the 63rd year of a man whose presence is a masterclass in faith, perseverance, and quiet authority.
+            Celebrating the 62nd year of a man whose presence is a masterclass in faith, perseverance, and quiet authority.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start">
             <button 
@@ -292,7 +292,7 @@ const LegacySection: React.FC = () => {
             </div>
             <div className="absolute -top-12 -right-12 w-56 h-56 bg-[#D4AF37] rounded-full z-20 flex flex-col items-center justify-center text-white shadow-2xl p-6 text-center transform rotate-12">
                <span className="text-[10px] uppercase tracking-widest font-bold">Celebrating</span>
-               <span className="text-6xl font-black font-serif my-2">63</span>
+               <span className="text-6xl font-black font-serif my-2">62</span>
                <span className="text-[10px] uppercase tracking-widest font-bold">Magnificent Years</span>
             </div>
           </div>
@@ -439,44 +439,6 @@ const WisdomCorner: React.FC = () => {
   );
 };
 
-// --- Tributes Component ---
-const Tributes: React.FC = () => {
-  const tributes: Tribute[] = [
-    { name: 'Dorothy Eze', relation: 'Beloved Wife', message: 'To my dearest partner: your strength is our anchor. Watching you lead this family with such grace has been the greatest honor of my life.' },
-    { name: 'Emmanuel Eze', relation: 'First Son', message: 'Dad, thank you for showing me that a man\'s value is found in his service to others. You are my ultimate benchmark.' },
-    { name: 'Onyinye Eze', relation: 'Daughter', message: 'You made me feel like royalty every single day. Thank you for the laughter, the protection, and the endless support.' },
-    { name: 'Kelechi Eze', relation: 'Second Son', message: 'Every success I achieve is built on the foundations you laid. Thank you for being my mentor and my friend.' },
-  ];
-
-  return (
-    <section id="tributes" className="py-48 px-8 bg-white relative">
-      <div className="max-w-[1400px] mx-auto">
-        <div className="text-center mb-32">
-           <span className="text-[#D4AF37] font-bold uppercase tracking-[0.5em] text-xs">The Guest Book</span>
-           <h2 className="text-6xl md:text-9xl font-serif font-bold text-[#1A1A1A] mt-6">Voices of Devotion</h2>
-        </div>
-        
-        <div className="grid md:grid-cols-2 gap-12">
-          {tributes.map((t, idx) => (
-            <div key={idx} className="bg-[#FDFCFB] p-16 md:p-24 rounded-[5rem] border border-gray-50 flex flex-col justify-between shadow-sm">
-               <Quote className="w-12 h-12 text-[#D4AF37]/5 mb-10" />
-               <p className="text-3xl md:text-4xl text-[#1A1A1A] font-light italic leading-relaxed font-serif">"{t.message}"</p>
-               <div className="mt-16 flex items-center gap-8">
-                  <div className="w-20 h-20 bg-[#D4AF37] rounded-full flex items-center justify-center text-white text-3xl font-bold shadow-2xl">
-                    {t.name[0]}
-                  </div>
-                  <div>
-                    <div className="font-bold text-2xl text-[#1A1A1A]">{t.name}</div>
-                    <div className="text-[10px] uppercase tracking-[0.3em] text-[#D4AF37] font-bold mt-1">{t.relation}</div>
-                  </div>
-               </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-};
 
 // --- Footer Component ---
 const Footer: React.FC = () => {
@@ -581,7 +543,6 @@ function App() {
           </div>
         </section>
 
-        <Tributes />
       </main>
       <Footer />
     </div>
