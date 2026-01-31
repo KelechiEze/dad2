@@ -148,7 +148,7 @@ const Hero: React.FC = () => {
         <div className="text-center lg:text-left space-y-12">
           <div className="inline-flex items-center gap-4 px-6 py-2.5 rounded-full bg-white shadow-sm border border-gray-100 text-[#B8860B] text-[10px] font-bold tracking-[0.4em] uppercase">
             <Sparkles className="w-4 h-4 fill-[#D4AF37]" />
-            A Golden Reflection • 1963 - 2026
+            A Golden Reflection • 1964 - 2026
           </div>
           <h1 className="text-5xl sm:text-7xl lg:text-7xl font-black leading-[0.85] font-serif text-[#1A1A1A] tracking-tighter">
             Pure <br />
