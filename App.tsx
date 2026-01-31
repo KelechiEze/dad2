@@ -305,7 +305,7 @@ const LegacySection: React.FC = () => {
 // --- Timeline Component ---
 const TimelineSection: React.FC = () => {
   const milestones: Milestone[] = [
-    { year: '1961', title: 'The Genesis', desc: 'A cold morning in January, the arrival of a soul destined for greatness.' },
+    { year: '1961', title: ' Genesis', desc: 'A cold morning in January, the arrival of a soul destined for greatness.' },
     { year: '1997', title: 'The First Seed', desc: 'The family roots took hold with the birth of Emmanuel.' },
     { year: '2000', title: 'Expansion of Love', desc: 'Kelechi was born, doubling the joy and the mission.' },
     { year: '2001', title: 'The Perfect Trio', desc: 'Onyinye joined the family, completing the core Eze legacy.' },
@@ -460,7 +460,7 @@ const Footer: React.FC = () => {
              <span className="text-4xl font-bold font-serif text-[#1A1A1A]">Happy <span className="gold-text">Birthday</span></span>
           </div>
           <p className="text-xl text-[#5D5956] font-light leading-relaxed">
-            Honoring sixty-three golden years of unyielding faith, profound wisdom, and a legacy that will radiate for generations.
+            Honoring sixty two golden years of unyielding faith, profound wisdom, and a legacy that will radiate for generations.
           </p>
           <div className="flex justify-center md:justify-start gap-8">
             {[Heart, Star, Sparkles].map((Icon, i) => (
@@ -486,7 +486,7 @@ const Footer: React.FC = () => {
              <h4 className="font-serif font-bold text-2xl text-[#1A1A1A]">Contact Family</h4>
              <div className="space-y-6 text-gray-500">
                <div className="flex items-center justify-center md:justify-start gap-4 transition-all">
-                  <Phone className="w-6 h-6" /> <span className="text-lg">+1 (202) 555-0143</span>
+                  <Phone className="w-6 h-6" /> <span className="text-lg">+1 (609) 382-6583</span>
                </div>
                <div className="inline-flex items-center gap-4 px-6 py-3 rounded-full bg-white shadow-md text-[#D4AF37] font-bold text-xs uppercase tracking-widest border border-gray-100">
                   <Calendar className="w-5 h-5" /> January 31st Milestone
@@ -496,7 +496,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="max-w-[1400px] mx-auto mt-32 pt-12 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center gap-8 text-[10px] font-bold uppercase tracking-[0.5em] text-gray-400">
-        <div>© 2024 CRAFTED WITH LOVE FOR DAD'S HAPPY BIRTHDAY</div>
+        <div>© 2026 CRAFTED WITH LOVE FOR DAD'S HAPPY BIRTHDAY</div>
         <div className="flex gap-12">
            <span className="cursor-default">Privacy</span>
            <span className="cursor-default">Terms</span>
